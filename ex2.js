@@ -14,9 +14,14 @@
  /**
   * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
   */
+console.log("Valor de la variable4, apartado 1: ", variable4);
+
 
   variable2 = variable1;
+  
   variable4 = variable2 * 2;
+  
+  console.log("Valor de la variable4, apartado 2: ", variable4);
 
 /**
   * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
