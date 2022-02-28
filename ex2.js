@@ -1,27 +1,25 @@
 /**
- * ¡LA ADIVINADORA!
- * 
- * Crea 4 variables para almacenar los siguientes valores:
- * 
- * 1. Número de gatos
- * 2. Tu próxima pareja
- * 3. Un país donde te gustaría vivir
- * 4. Un trabajo de ensueño
- * 
- * A cada variable, asígnale un valor adecuado (piensa si tiene que ser un número o una cadena de texto)
- * 
- * Finalmente, por pantalla, la Adivinadora debe pronosticar tu futuro deseado de esta manera
- * 
- * "Tú estarás en {pais} trabajando de {trabajo} y tu pareja será {pareja} y tendréis {numeroGatos} gatos" 
- * 
+ * Que sucede aquí?
  */
 
-let numeroGatos = 2;
-let pareja = "no sera toxic@";
-let pais = "España"
-let trabajo = "escritora";
+ let variable1 = 1;
+ let variable2 = 2;
+ let variable3 = 3;
+ let variable4 = 4;
+ variable2= 2;
+ varialbe3= 4;
+ variable4= 1;
+ variable1= -7;
 
-let futuro = "Tendréis " + numeroGatos + " gatos, "+"mi pareja "+pareja+". Vivire en "+pais+" como "+trabajo+".";
+ /**
+  * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
+  */
+  console.log(variable4);
 
+  variable2 = variable1;
+  variable4 = variable2 * 2;
 
-console.log(futuro);
+/**
+  * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
+  */
+ console.log(variable4);
