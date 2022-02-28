@@ -16,7 +16,12 @@
  * 
  */
 
-let numeroGatos = 10;
+let numeroGatos = 2;
+let pareja = "no sera toxic@";
+let pais = "España"
+let trabajo = "escritora";
 
-let futuro = "tendréis " + numeroGatos + " gatos";
+let futuro = "Tendréis " + numeroGatos + " gatos, "+"mi pareja "+pareja+". Vivire en "+pais+" como "+trabajo+".";
+
+
 console.log(futuro);
