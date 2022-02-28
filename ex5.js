@@ -9,9 +9,10 @@
  */
 
  let futureYear = 2050;
- let birthYear;
+ let birthYear = 1996;
+ let years = futureYear-birthYear;
 
- let message;
+ let message= "En el año "+futureYear+"yo voy a tener "+years+" años";
 
  console.log(message);
  
