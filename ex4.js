@@ -1,27 +1,23 @@
 /**
- * ¡LA ADIVINADORA!
+ * Calcula el area de un círculo!
  * 
- * Crea 4 variables para almacenar los siguientes valores:
+ * JavaScript nos ofrece módulos con herramientas matemáticas, como por ejemplo, el módulo Math. Entre sus propiedades, podemos acceder a una aprxoimación del valor PI: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/PI
  * 
- * 1. Número de gatos
- * 2. Tu próxima pareja
- * 3. Un país donde te gustaría vivir
- * 4. Un trabajo de ensueño
+ * - Crea un script que, dado el radio de un círculo, cálcule su area y muestra el valor por pantalla. Recuerda que el valor del area de un círculo se calcula con la fórmula: Area	= π r2
  * 
- * A cada variable, asígnale un valor adecuado (piensa si tiene que ser un número o una cadena de texto)
  * 
- * Finalmente, por pantalla, la Adivinadora debe pronosticar tu futuro deseado de esta manera
+ * - El radio debe almacenarse en una variable.
+ * - Ejemplo: si la variable del radio vale 3, deberíamos ver un mensaje por pantalla que diga: "El area de un círculo de radio 3 es de 28.274333882308138 m2"
  * 
- * "Tú estarás en {pais} trabajando de {trabajo} y tu pareja será {pareja} y tendréis {numeroGatos} gatos" 
  * 
  */
 
-let numeroGatos = 2;
-let pareja = "no sera toxic@";
-let pais = "España"
-let trabajo = "escritora";
+let numeroPi = Math.PI
+console.log("Valor de PI:", numeroPi)
+let radio = 8;
+let valor = numeroPi*Math.pow(radio,2);
+console.log("El area de un círculo de radio "+radio+" es de "+valor.toFixed(2)+" m2");
 
-let futuro = "Tendréis " + numeroGatos + " gatos, "+"mi pareja "+pareja+". Vivire en "+pais+" como "+trabajo+".";
-
-
-console.log(futuro);
+/**
+ * BONUS: Muestra el mensaje de tal manera que el número devuelto esté redondeado a dos decimales. Es decir, para un radio de 3, el mensaje debería ser: ""El area de un círculo de radio 3 es de 28.27 m2"
+ */
